@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import styled from 'styled-components'
 import avatar from '../../img/avatar.png'
 import { signout } from '../../utils/Icons'
@@ -11,8 +11,8 @@ function Navigation({active, setActive}) {
             <div className="user-con">
                 <img src={avatar} alt="" />
                 <div className="text">
-                    <h2>Mike</h2>
-                    <p>Your Money</p>
+                    <h2>Darshan Jain</h2>
+                    {/* <p>Your Money</p> */}
                 </div>
             </div>
             <ul className="menu-items">
@@ -110,6 +110,39 @@ const NavStyled = styled.nav`
             border-radius: 0 10px 10px 0;
         }
     }
+
+    /* Media Queries
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    .user-con {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 0.5rem;
+      }
+    }
+    .menu-items {
+      flex-direction: row;
+      gap: 1rem;
+      overflow-x: auto;
+      padding-bottom: 1rem;
+      li {
+        grid-template-columns: auto;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+    } */
 `;
+
 
 export default Navigation

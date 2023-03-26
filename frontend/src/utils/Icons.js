@@ -11,10 +11,11 @@ export const freelance = <i className ="fa-solid fa-earth-americas"></i>
 export const stocks = <i className="fa-solid fa-arrow-trend-up"></i>
 export const bitcoin = <i className="fa-brands fa-bitcoin"></i>
 export const piggy = <i className="fa-solid fa-piggy-bank"></i>
+export const bank = <i class="fa-solid fa-building-columns"></i>
 export const yt = <i className="fa-brands fa-youtube"></i>
 export const card = <i className="fa-brands fa-cc-visa"></i>
 export const users = <i className="fa-solid fa-users-between-lines"></i>
-export const dollar = <i className="fa-solid fa-dollar-sign"></i>
+export const ruppee = <i class="fa-solid fa-indian-rupee-sign"></i>
 export const calender = <i className="fa-solid fa-calendar"></i>
 export const comment = <i className="fa-solid fa-comment"></i>
 export const plus = <i className="fa-solid fa-plus"></i>

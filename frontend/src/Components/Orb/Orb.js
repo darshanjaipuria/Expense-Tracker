@@ -4,7 +4,7 @@ import { useWindowSize } from '../../utils/useWindowSize';
 
 function Orb() {
 
-    const {width, height} = useWindowSize()
+    const {width, height} = useWindowSize()  //custom hook
 
     console.log(width, height)
 
@@ -28,7 +28,7 @@ function Orb() {
         margin-left: -37vh;
         margin-top: -37vh;
         background: linear-gradient(180deg, #F56692 0%, #F2994A 100%);
-        filter: blur(400px);
+        filter: blur(250px);
         animation: ${moveOrb} 15s alternate linear infinite;
     `;
 
