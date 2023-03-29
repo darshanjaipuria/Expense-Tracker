@@ -33,9 +33,6 @@ MONGO_URL=<Your MongoDB URI>
 
 Once the application is running, users can navigate to the homepage to view the transaction history and current balance. To add a new Income, users can go to the "Income Page" and fill out the form . To add a new Expense, users can go to the "Expense Page" and fill out the form . To  delete an existing transaction, users can go to the respective income and expense page and delete the transaction from the database.
 
-## Credits
-
-This project was built by Darshan Jain as part of a [course/project/etc.].
 
 ## Author
 
